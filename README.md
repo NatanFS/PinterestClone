@@ -19,7 +19,7 @@ To run this, you will need the following technologies installed:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/NatanFS/PinterestClone
+    git clone https://github.com/NatanFS/PinterestClone-Backend
     cd pinterestlike
     ```
 
