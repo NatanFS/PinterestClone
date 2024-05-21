@@ -11,6 +11,7 @@ This project is designed to be a simple replication of the pinterest idea, made 
 - Users can order pins by most recent or most liked.
 - Pins are paginated.
 - Unit tests for the main endpoints.
+- Images are uniformly scaled by backend.
 
 To run this, you will need the following technologies installed: 
 
@@ -22,6 +23,9 @@ To run this, you will need the following technologies installed:
     git clone https://github.com/NatanFS/PinterestClone-Backend
     cd pinterestlike
     ```
+
+2. Add .env file on `pinterestlike/src/pinterestlike`. 
+Follow the exemple of `pinterestlike/src/pinterestlike/.env-example`.
 
 2. Create and activate a virtual environment:
     ```bash
@@ -50,7 +54,7 @@ To run this, you will need the following technologies installed:
     python3 manage.py tests
     ```
 
-Now, your backend project is running! :) 
+Now, your backend project is running at http://localhost:8000/! :) 
 
 
 
