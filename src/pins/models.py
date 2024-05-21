@@ -8,6 +8,7 @@ class Pin(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     user = models.ForeignKey(User, related_name='pins', on_delete=models.CASCADE)
     likes = models.ManyToManyField(User, related_name='liked_pins', blank=True)
+    tags = models.CharField(max_length=255, blank=True, null=True)
 
     def __str__(self):
         return self.title
